@@ -140,7 +140,7 @@ public class CustomerMB {
         this.cus_note ="";
         this.cus_address="";
     }
-    public String insetUser() {        
+    public String insetCus() {        
         custom.setCusName(cus_name);
         custom.setCusAddress(cus_address);
         custom.setCusPhone(cus_phone);
