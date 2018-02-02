@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:body>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="col-md-3 left_col">
+            <div class="left_col scroll-view">
+                <div class="navbar nav_title" style="border: 0;">
+                    <a href="index-ad" class="site_title"><span class="glyphicon glyphicon-grain" aria-hidden="true"></span> <span>#{usersMB.u_account}</span></a>
+                </div>
+                <div class="clearfix"></div>
+                <!-- menu profile quick info -->
+                <div class="profile">
+                    <div class="profile_pic">
+                        <img src="../img/nongdan.jpg" alt="..." class="img-circle iprofile_img"></img>
+                    </div>
+                    <div class="profile_info">
+                        <span>Xin Chào</span>
+
+                        <h2>Session</h2>
+                    </div>
+                </div>
+                <!-- /menu profile quick info -->
+
+                <div class="clr"></div>
+                <!-- sidebar menu -->
+                <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                    <div class="menu_section">     
+                        <ul class="nav side-menu">
+                            <li><a href="user.xhtml">
+                                    <i class="fa fa-home"></i> Trang chủ 
+                                </a>         
+                            </li>
+                            <li>
+                                <a>
+                                    <i class="fa fa-table"></i> 
+                                    Hóa đơn đặt hàng 
+                                    <span class="fa fa-chevron-down"></span>
+                                </a>
+                                <ul class="nav child_menu">
+                                    <li><a href="#">Mới nhận</a></li>
+                                    <li><a href="#">Danh sách</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <i class="fa fa-cubes"></i> Sản phẩm <span class="fa fa-chevron-down"></span></a>
+                                <ul class="nav child_menu">
+                                    <li><a href="index.php?page=sanpham">Danh sách Sản Phẩm</a></li>
+                                    <li><a href="index.php?page=sanpham-ngungban">Danh sách Ngừng bán</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <i class="fa fa-university"></i> Kho <span class="fa fa-chevron-down"></span></a>
+                                <ul class="nav child_menu">
+                                    <li><a href="#">Nhập kho</a></li>
+                                    <li><a href="#">Lịch sử</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <i class="fa fa-envira"></i> Nhà sản xuất <span class="fa fa-chevron-down"></span></a>
+                                <ul class="nav child_menu">
+                                    <li><a href="#">Danh sách NSX</a></li>
+                                    <li><a href="#">NSX Ngừng bán</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a>
+                                    <i class="fa fa-users"></i> Tài khoản <span class="fa fa-chevron-down"></span>
+                                </a>
+                                <ul class="nav child_menu">
+                                    <li><a href="#">Danh sách </a></li>
+                                    <li><a href="#">Tài khoản bị cấm</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a>
+                                    <i class="fa fa-newspaper-o"></i> Tin tức <span class="fa fa-chevron-down"></span>
+                                </a>
+                                <ul class="nav child_menu">
+                                    <li><a href="#">Danh sách tin tức</a></li>
+                                    <li><a href="#">Tin tức bị ẩn</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-youtube"></i> Video 
+                                </a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="menu_section">
+                        <h3>Chức năng</h3>
+                        <ul class="nav side-menu">
+
+                            <li><a><i class="fa fa-windows"></i> Chỉnh sửa bố cục web </a>
+                                <ul class="nav child_menu">              
+                                    <li><a href="#">Banner</a></li>              
+                                    <li><a href="#">Liên hệ</a></li>         
+                                    <li><a href="#">Zalo</a></li>
+                                    <li><a href="#">Tài Khoản Ngân Hàng</a></li>   
+
+                                    <li><a href="#">Liên hệ - khu vực</a></li>
+                                </ul>
+                            </li>
+
+
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- /sidebar menu -->
+
+                <!-- /menu footer buttons -->
+                <div class="sidebar-footer hidden-small">
+                    <a data-toggle="tooltip" data-placement="top" title="Settings">
+                        <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+                    </a>
+                    <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                        <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+                    </a>
+                    <a data-toggle="tooltip" data-placement="top" title="Lock">
+                        <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+                    </a>
+                    <a data-toggle="tooltip" data-placement="top" title="Logout">
+                        <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                    </a>
+                </div>
+                <!-- /menu footer buttons -->
+            </div>
+            </div>
+        </div>
+        <div class="widget-title">
+            <h4 onclick="openNav()" style="font-size:20px;cursor:pointer"><i class="icon-reorder"></i>Managed Table</h4>
+            <span class="tools">
+                <a href="javascript:;" class="icon-chevron-down"></a>
+                <a href="javascript:;" class="icon-remove"></a>
+            </span>
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "300px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+    </h:body>
+</html>
+
