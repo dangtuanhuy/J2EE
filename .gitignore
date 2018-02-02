@@ -1,0 +1,6 @@
+/BookStore-ejb/build/
+/BookStore-war/build/
+/BookStore-ejb/dist/
+/BookStore-war/dist/
+/build/
+/dist/
