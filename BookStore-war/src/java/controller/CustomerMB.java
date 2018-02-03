@@ -43,7 +43,7 @@ public class CustomerMB {
     private String cus_phone;
     private String cus_email;
     private String cus_note;
-    private Date cus_adddate;
+    private Date cus_adddate = new Date();
     private String cus_status;
     public CustomerMB() {
     }
@@ -140,15 +140,16 @@ public class CustomerMB {
         this.cus_note ="";
         this.cus_address="";
     }
-    public String insetCus() {        
-        custom.setCusName(cus_name);
-        custom.setCusAddress(cus_address);
-        custom.setCusPhone(cus_phone);
-        custom.setCusEmail(cus_email);
-        custom.setCusNote(cus_note);
-        custom.setCusAdddate(today);
-        custom.setCusStatus(1);
-        customersFacade.create(custom);
-        return "custom";
+    public String insertCus() {     
+        Customers custom1 = new Customers();
+        custom1.setCusName(cus_name);
+        custom1.setCusAddress(cus_address);
+        custom1.setCusPhone(cus_phone);
+        custom1.setCusEmail(cus_email);
+        custom1.setCusNote(cus_note);
+        custom1.setCusAdddate(new Date());
+        custom1.setCusStatus(1);
+        customersFacade.create(custom1);
+        return "custom1";
     }
 }

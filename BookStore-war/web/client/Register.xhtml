@@ -6,7 +6,6 @@
       xmlns:f="http://xmlns.jcp.org/jsf/core">
     <h:head>
         <title>Register</title>
-
         <ui:include src="../lib/footer_admin.xhtml"></ui:include>
     </h:head>
     <h:body>
@@ -20,7 +19,7 @@
                     </tr>
                     <tr>     
                         <td>Địa chỉ</td>                                           
-                        <td><h:inputSecret value="#{customerMB.cus_adddate}"></h:inputSecret></td>
+                        <td><h:inputText value="#{customerMB.cus_address}"></h:inputText></td>
                     </tr>
                     <tr>    
                         <td>Điện thoại</td>
@@ -32,18 +31,22 @@
                     </tr>
                     <tr>
                         <td>Note</td>
-                        <td><h:inputText value="#{customerMB.cus_note}"></h:inputText></td>
+                        <td><h:inputText value="#{customerMB.cus_note}" ></h:inputText></td>
                     </tr>
                     <tr>
                         <td>Ngày tạo</td>
-                        <td><h:inputText value="#{customerMB.cus_adddate}"></h:inputText></td>
+                        <td><h:inputText value="#{customerMB.cus_adddate}">
+                                <f:convertDateTime pattern="dd/MM/yyyy"/>
+                            </h:inputText></td>
                     </tr>   
-               
-                <div align="center" style="margin-top: 10px">
-                    <h:commandLink styleClass="btn btn-inverse " action="#{customerMB.insetCus()}">
-                        <i class="icon-refresh icon-white"></i> Đăng Ký
-                    </h:commandLink>
-                </div>
+                    <tr >
+                    <div align="center" style="margin-top: 10px">
+                        <h:commandLink styleClass="btn btn-inverse " action="#{customerMB.insertCus()}">
+                            <i class="icon-refresh icon-white"></i> Đăng Ký
+                        </h:commandLink>
+                    </div>
+                    </tr>
+                </table>
             </h:form>
         </f:view>
     </h:body>

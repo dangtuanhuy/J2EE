@@ -91,9 +91,9 @@ public class Customers implements Serializable {
     public Customers() {
     }
 
-    public Customers(Integer cusId) {
-        this.cusId = cusId;
-    }
+//    public Customers(Integer cusId) {
+//        this.cusId = cusId;
+//    }
 
     public Customers(Integer cusId, String cusName, String cusAddress, String cusPhone, String cusEmail, String cusNote, Date cusAdddate, int cusStatus) {
         this.cusId = cusId;
@@ -110,9 +110,9 @@ public class Customers implements Serializable {
         return cusId;
     }
 
-    public void setCusId(Integer cusId) {
-        this.cusId = cusId;
-    }
+//    public void setCusId(Integer cusId) {
+//        this.cusId = cusId;
+//    }
 
     public String getCusName() {
         return cusName;
