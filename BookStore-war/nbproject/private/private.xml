@@ -2,16 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/E:/A17007/BookStore/BookStore-war/web/lib/footer_admin.xhtml</file>
-            <file>file:/E:/A17007/BookStore/BookStore-war/web/lib/title_admin.xhtml</file>
-            <file>file:/E:/A17007/BookStore/BookStore-war/src/java/controller/CategoriesMB.java</file>
-            <file>file:/E:/A17007/BookStore/BookStore-war/web/admin/userInsert.xhtml</file>
-            <file>file:/E:/A17007/BookStore/BookStore-war/web/client/Register.xhtml</file>
-            <file>file:/E:/A17007/BookStore/BookStore-war/src/java/controller/UsersMB.java</file>
-            <file>file:/E:/A17007/BookStore/BookStore-war/web/admin/user.xhtml</file>
-            <file>file:/E:/A17007/BookStore/BookStore-war/src/java/controller/CustomerMB.java</file>
-            <file>file:/E:/A17007/BookStore/BookStore-war/web/lib/header_admin.xhtml</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

@@ -2,12 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/E:/A17007/BookStore/BookStore-ejb/src/java/sessionbean/UsersFacadeLocal.java</file>
-            <file>file:/E:/A17007/BookStore/BookStore-ejb/src/java/entityclass/Customers.java</file>
-            <file>file:/E:/A17007/BookStore/BookStore-ejb/src/java/sessionbean/UsersFacade.java</file>
-            <file>file:/E:/A17007/BookStore/BookStore-ejb/src/java/entityclass/Users.java</file>
-            <file>file:/E:/A17007/BookStore/BookStore-ejb/src/java/entityclass/Transactions.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
